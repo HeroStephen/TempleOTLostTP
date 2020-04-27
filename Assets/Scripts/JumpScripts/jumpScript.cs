@@ -52,6 +52,9 @@ public class jumpScript : MonoBehaviour
 			transform.Rotate(0.0f, Time.deltaTime * turnSpeed, 0.0f);
 		}
 
+	}
+
+	void Update() {
 		//determines if player can jump
 		if(Input.GetKeyDown(KeyCode.Space) && isGrounded) {
 			if (anim.GetCurrentAnimatorStateInfo(0).IsName("RunJumpFlip")) {
