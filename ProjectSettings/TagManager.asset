@@ -4,12 +4,14 @@
 TagManager:
   serializedVersion: 2
   tags:
+  - Movable
+  - Yellow
+  - Exit
+  - Fake
   - Floor
   - Wall
-  - Fake
   - Light
-  - HeDed
-  - Button
+  - Reset
   layers:
   - Default
   - TransparentFX

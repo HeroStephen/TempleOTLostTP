@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/MenuScene.unity
+    guid: bfe9d7da3320c604eb649f6db741bcbd
+  - enabled: 1
+    path: Assets/Scenes/JumpPuzzle.unity
+    guid: 90dbaa01238dd314fbcb4c6e0bcee165
+  - enabled: 1
+    path: Assets/Scenes/BlockPuzzleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects: {}
